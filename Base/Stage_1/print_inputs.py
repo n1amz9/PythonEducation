@@ -136,5 +136,5 @@
 
 x = int(input())
 
-print (1*x, 2*x, 3*x, 4*x, 5*x, sep='---')
+print (1*x, 2*x, 3*x, 4*x, 5*x, sep='---') #kavo?
 
