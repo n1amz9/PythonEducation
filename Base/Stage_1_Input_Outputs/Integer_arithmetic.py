@@ -72,6 +72,5 @@
 # Write a program that determines the number of the compartment where the seat with the given number is located (the numbering of seats is through, starting from 1).
 
 number_of_seat = int(input())
-number_of_seat = (number_of_seat + (number_of_seat % 4)) // 4
-
-print ("Ответ=", number_of_seat)
+number_of_seat = number_of_seat * -1
+print (number_of_seat // 4 * -1)
