@@ -80,7 +80,13 @@
 # Write a program to convert the value of a time interval given 
 # in minutes to a value expressed in hours and minutes.
 
-time_in_minutes = int(input())
-print (time_in_minutes, 'мин - это', time_in_minutes//60, 'час', time_in_minutes%60, 'минут.')
+# time_in_minutes = int(input())
+# print (time_in_minutes, 'мин - это', time_in_minutes//60, 'час', time_in_minutes%60, 'минут.')
 
-#7 
+#7 Three-digit number
+
+digit = int(input())
+digit1 = digit // 100
+digit2 = digit // 10
+digit3 = digit % 10
+print ('Первое число:', digit1, '/n', 'Второе число:', digit2, '/n', 'Третье число:', digit3 )
