@@ -67,4 +67,8 @@
 
 # 5 train compartments
 
+# The compartment train has 
+# 9 compartments with four seats for passengers in each compartment. 
+# Write a program that determines the number of the compartment where the seat with the given number is located (the numbering of seats is through, starting from 1).
 
+print (12 % 9 + 12 // 4)
