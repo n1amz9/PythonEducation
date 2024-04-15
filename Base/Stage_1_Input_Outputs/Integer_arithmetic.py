@@ -123,17 +123,17 @@
 #9 A four-digit number
 # Write a program to find the digits of a four-digit number.
 
-num = int(input())
+# num = int(input())
 
-if (num < 1000 or num >= 10000):
-    print ("NUM should be over 1000 or under 10000")
+# if (num < 1000 or num >= 10000):
+#     print ("NUM should be over 1000 or under 10000")
     
-num1 = num // 1000
-num2 = num // 100 % 10
-num3 = num // 10 % 10
-num4 = num % 10
+# num1 = num // 1000
+# num2 = num // 100 % 10
+# num3 = num // 10 % 10
+# num4 = num % 10
 
-print ('Цифра в позиции тысяч равна', num1)
-print ('Цифра в позиции сотен равна', num2)
-print ('Цифра в позиции десятков равна', num3)
-print ('Цифра в позиции единиц равна', num4)
+# print ('Цифра в позиции тысяч равна', num1)
+# print ('Цифра в позиции сотен равна', num2)
+# print ('Цифра в позиции десятков равна', num3)
+# print ('Цифра в позиции единиц равна', num4)
