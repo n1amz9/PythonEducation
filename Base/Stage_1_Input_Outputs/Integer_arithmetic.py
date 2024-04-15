@@ -108,14 +108,32 @@
 
 # abc = abc,acb,bac,bca,cab,cba.
 
-abc = int(input()) #123
-a = abc // 100 # 1
-b = abc // 10 % 10 #2
-c = abc % 10 #3
+# abc = int(input()) #123
+# a = abc // 100 # 1
+# b = abc // 10 % 10 #2
+# c = abc % 10 #3
 
-print (abc)
-print (a * 100 + c * 10 + b)
-print (b * 100 + a * 10 + c)
-print (b * 100 + c * 10 + a)
-print (c * 100 + a * 10 + b)
-print (c * 100 + b * 10 + a)
+# print (abc)
+# print (a * 100 + c * 10 + b)
+# print (b * 100 + a * 10 + c)
+# print (b * 100 + c * 10 + a)
+# print (c * 100 + a * 10 + b)
+# print (c * 100 + b * 10 + a)
+
+#9 A four-digit number
+# Write a program to find the digits of a four-digit number.
+
+num = int(input())
+
+if (num < 1000 or num >= 10000):
+    print ("NUM should be over 1000 or under 10000")
+    
+num1 = num // 1000
+num2 = num // 100 % 10
+num3 = num // 10 % 10
+num4 = num % 10
+
+print ('Цифра в позиции тысяч равна', num1)
+print ('Цифра в позиции сотен равна', num2)
+print ('Цифра в позиции десятков равна', num3)
+print ('Цифра в позиции единиц равна', num4)
