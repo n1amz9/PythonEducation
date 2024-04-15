@@ -71,6 +71,16 @@
 # 9 compartments with four seats for passengers in each compartment. 
 # Write a program that determines the number of the compartment where the seat with the given number is located (the numbering of seats is through, starting from 1).
 
-number_of_seat = int(input())
-number_of_seat = number_of_seat * -1
-print (number_of_seat // 4 * -1)
+# number_of_seat = int(input())
+# number_of_seat = number_of_seat * -1
+# print (number_of_seat // 4 * -1)
+
+#6 Time interval recalculation
+
+# Write a program to convert the value of a time interval given 
+# in minutes to a value expressed in hours and minutes.
+
+time_in_minutes = int(input())
+print (time_in_minutes, 'мин - это', time_in_minutes//60, 'час', time_in_minutes%60, 'минут.')
+
+#7 
