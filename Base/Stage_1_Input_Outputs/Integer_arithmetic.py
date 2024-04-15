@@ -85,8 +85,37 @@
 
 #7 Three-digit number
 
-digit = int(input())
-digit1 = digit // 100
-digit2 = digit // 10
-digit3 = digit % 10
-print ('Первое число:', digit1, '/n', 'Второе число:', digit2, '/n', 'Третье число:', digit3 )
+#test
+# digit = int(input())
+# digit1 = digit // 100
+# digit2 = digit // 10 % 10
+# digit3 = digit % 10
+# print ('First digit:', digit1, '\n', 'Second digit:', digit2, '\n', 'Third digit:', digit3)
+
+#Answer:
+# digit = int(input())
+# digit1 = digit // 100
+# digit2 = digit // 10 % 10
+# digit3 = digit % 10
+# print ('Сумма цифр =', digit1 + digit2 + digit3)
+# print ('Произведение цифр =', digit1 * digit2 * digit3)
+
+#8 Digit transposition
+
+# Given a three-digit number 
+# - abc in which all digits are different. 
+# Write a program that outputs six numbers formed by permutation of digits of a given number.
+
+# abc = abc,acb,bac,bca,cab,cba.
+
+abc = int(input()) #123
+a = abc // 100 # 1
+b = abc // 10 % 10 #2
+c = abc % 10 #3
+
+print (abc)
+print (a * 100 + c * 10 + b)
+print (b * 100 + a * 10 + c)
+print (b * 100 + c * 10 + a)
+print (c * 100 + a * 10 + b)
+print (c * 100 + b * 10 + a)
