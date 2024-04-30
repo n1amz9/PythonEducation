@@ -9,4 +9,86 @@
 # When registering on websites, you are required to enter your password twice. This is done for security, as this approach reduces the possibility of incorrect password entry.
 
 # Write a program that compares the password and its confirmation. If they match, the program outputs: "Password accepted", otherwise: "Password not accepted".
- 
+
+#==================================
+
+# password = input()
+# check_password = input()
+
+# if password == check_password :
+#     print ('Пароль принят')
+# else :
+#     print ('Пароль не принят')
+
+#==================================
+
+# number = int(input())
+
+# if (number % 2 == 0) :
+#     print ("Четное")
+# else :
+#     print ("Нечетное")
+
+#==================================
+
+# number = int(input()) # 1614
+# n0 = number // 1000
+# n1 = number // 100 % 10
+# n2 = number // 10 % 100 % 10
+# n3 = number % 1000 % 100 % 10
+
+# if n0 + n3 == n1 - n2 :
+#     print ('ДА')
+# else :
+#     print('НЕТ')
+
+#==================================
+
+# age = int(input())
+
+# if age >= 18:
+#     print ("Доступ разрешен")
+# else :
+#     print ("Доступ запрещен")
+
+#==================================
+
+# num1 = int(input())
+# num2 = int(input())
+# num3 = int(input())
+
+# if num2 - num1 == num3 - num2:
+#     print ('YES')
+# else :
+#     print ('NO')
+
+#==================================
+
+# num1 = int(input())
+# num2 = int(input())
+
+# if num2 < num1:
+#     print (num2)
+# else :
+#     print (num1)
+
+#==================================
+
+# 1 2 3 4
+# 1 < 2 < 3 < 4
+
+num1 = int(input())
+num2 = int(input())
+num3 = int(input())
+num4 = int(input())
+
+if (num1 < num2 < num3 < num4):
+    print (num1)
+if (num2 < num3 < num4):
+    print (num1)
+if (num3 < num4):
+    print (num3)
+else :
+    print (num4)
+
+# print (min(num1,num2,num3,num4)) not fair
