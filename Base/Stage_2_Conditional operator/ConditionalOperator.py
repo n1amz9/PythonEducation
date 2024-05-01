@@ -77,26 +77,78 @@
 # 1 2 3 4
 # 1 < 2 < 3 < 4
 
-num1 = int(input())
-num2 = int(input())
-num3 = int(input())
-num4 = int(input())
-a = 0
-b = 0
+# num1 = int(input())
+# num2 = int(input())
+# num3 = int(input())
+# num4 = int(input())
+# a = 0
+# b = 0
 
-if num1 < num2 :
-    a = num1
-else :
-    a = num2
+# if num1 < num2 :
+#     a = num1
+# else :
+#     a = num2
 
-if num3 < num4:
-    b = num3
-else :
-    b = num4
+# if num3 < num4:
+#     b = num3
+# else :
+#     b = num4
     
-if a < b :
-    print (a)
-else:
-    print (b)
+# if a < b :
+#     print (a)
+# else:
+#     print (b)
 
 # print (min(num1,num2,num3,num4)) not fair
+
+#==================================
+
+# print ("Введите свой полный возраст:", end="\n")
+# age = int(input())
+
+# if age <= 13:
+#     print("детство")
+# if 14 <= age <= 24:
+#     print ("молодость")
+# if 25 <= age <= 59:
+#     print ("зрелость")
+# if age >= 60 :
+#     print ("старость")
+
+#==================================
+
+# num1, num2, num3 = int(input()), int(input()), int(input())
+# sum = 0
+
+# if (num1 >= 0) :
+#     sum = sum + num1
+# if (num2 >= 0) :
+#     sum = sum + num2
+# if (num3 >= 0) :
+#     sum = sum + num3
+# print (sum)
+
+#==================================
+
+# a = int(input())
+
+# if a >= 2 and a <= 17:
+#     b = 3
+#     p = a * a + b * b
+# else:
+#     b = 5
+
+# p = (a + b) * (a + b)
+# print(p)
+
+#==================================
+
+num = int(input())
+
+if -1 < num < 17 :
+    print ("Принадлежит")
+else:
+    print ("Не принадлежит")
+
+#==================================
+
