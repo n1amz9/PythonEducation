@@ -143,12 +143,106 @@
 
 #==================================
 
-num = int(input())
+# num = int(input())
 
-if -1 < num < 17 :
-    print ("Принадлежит")
-else:
-    print ("Не принадлежит")
+# if -1 < num < 17 :
+#     print ("Принадлежит")
+# else:
+#     print ("Не принадлежит")
 
+#==================================
+
+# num = int(input())
+
+# if num <= -3 or num >= 7 :
+#     print ("Принадлежит")
+# else :
+#     print ("Не принадлежит")
+
+#==================================
+
+# num = int(input())
+
+# if (-30 < num <= -2) or (7 < num <= 25) :
+#     print ("Принадлежит")
+# else :
+#     print ("Не принадлежит")
+
+#==================================
+
+# num = int(input())
+
+# if (num // 1000 > 0 and num // 1000 < 10) and (num % 7 == 0 or num % 17 == 0) :
+#     print ("YES")
+# else :
+#     print ("NO")
+    
+#==================================
+
+# # a+b>c
+# # a+c>b
+# # b+c>a,
+
+# a = int(input())
+# b = int(input())
+# c = int(input())
+
+# if (a + b > c) and (a+c>b) and (b+c>a):
+#     print ("YES")
+# else : 
+#     print ("NO")
+    
+#==================================
+
+# year = int(input())
+
+# if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+#     print ("YES")
+# else:
+#     print ("NO")
+    
+#==================================
+
+# x1, y1, x2, y2 = int(input()), int(input()), int(input()), int(input())
+
+# if (x1 == x2 and y1 != y2) or (y1 == y2 and x1 != x2) :
+#     print ("YES")
+# else :
+#     print ("NO")
+    
+#==================================
+
+# x1, y1, x2, y2 = int(input()), int(input()), int(input()), int(input())
+
+# if (-1 <= x1 - x2 <= 1 and -1 <= y1 - y2 <= 1) :
+#     print ("YES")
+# else:
+#     print ("NO")
+    
+#==================================
+
+# zum_speed = int(input())
+# flash_speed = int(input())
+
+# if (zum_speed > flash_speed) :
+#     print ("NO")
+# elif (zum_speed < flash_speed):
+#     print ("YES")
+# else:
+#     print ("Don't know")
+        
+#==================================
+
+# a = int(input())
+# b = int(input())
+# c = int(input())
+
+# if (a == b and c != b) or (b == c and a != c) or (a == c and b != c) :
+#     print ("Равнобедренный")
+# elif a == b == c :
+#     print ("Равносторонний")
+# else :
+#     print ("Разносторонний")
+            
 #==================================
 
