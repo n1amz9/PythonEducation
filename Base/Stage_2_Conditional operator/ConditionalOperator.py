@@ -281,3 +281,50 @@
             
 #==================================
 
+# weight = int(input())
+
+# if (weight < 60) :
+#     print ("Легкий вес")
+# elif (weight < 64):
+#     print ("Первый полусредний вес")
+# else:
+#     print ("Полусредний вес")
+            
+#==================================
+
+# Calculator moment
+
+# a = int(input())
+# b = int(input())
+# s = str(input())
+
+# if (b == 0 and s == "/") :
+#     print ("На ноль делить нельзя!")
+# elif (s == "+") :
+#     print(a + b)
+# elif (s == "-") :
+#     print(a - b)
+# elif (s == "*") :
+#     print(a * b)
+# elif (s == "/") :
+#     print(a / b)
+# else :
+#     print ("Неверная операция")
+            
+#==================================
+
+# colours mixer
+
+colour1 = str(input())
+colour2 = str(input())
+
+if (colour1 == colour2 and (colour1 == "синий" or colour1 == "желтый" or colour1 == "красный")) :
+    print (colour1)
+elif ((colour1 == "синий" and colour2 == "красный") or (colour1 == "красный" and colour2 == "синий")) :
+    print ("фиолетовый")
+elif ((colour1 == "красный" and colour2 == "желтый") or (colour1 == "желтый" and colour2 == "красный")) :
+    print ("оранжевый")
+elif ((colour1 == "желтый" and colour2 == "синий") or (colour1 == "синий" and colour2 == "желтый")) :
+    print ("зеленый")
+else :
+    print ("ошибка цвета")
