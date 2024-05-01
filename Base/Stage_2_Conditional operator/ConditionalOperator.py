@@ -81,14 +81,22 @@ num1 = int(input())
 num2 = int(input())
 num3 = int(input())
 num4 = int(input())
+a = 0
+b = 0
 
-if (num1 < num2 < num3 < num4):
-    print (num1)
-if (num2 < num3 < num4):
-    print (num1)
-if (num3 < num4):
-    print (num3)
+if num1 < num2 :
+    a = num1
 else :
-    print (num4)
+    a = num2
+
+if num3 < num4:
+    b = num3
+else :
+    b = num4
+    
+if a < b :
+    print (a)
+else:
+    print (b)
 
 # print (min(num1,num2,num3,num4)) not fair
