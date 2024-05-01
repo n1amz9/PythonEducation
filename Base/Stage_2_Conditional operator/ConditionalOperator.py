@@ -246,3 +246,38 @@
             
 #==================================
 
+# 1 2 3
+
+# a = int(input())
+# b = int(input())
+# c = int(input())
+
+# min1 = 0 
+# min2 = 0
+
+# if (a > c and a < b) or (a > b and a < c): 
+#         print (a)
+        
+# if (b > c and b < a) or (b > a and b < c) :
+#         print (b)
+        
+# if (c > b and c < a) or (c > a and c < b) :
+#         print (c)
+            
+#==================================
+
+# 4,6,9,11 = 30
+# 1,3,5,7,8,10,12 = 31
+# 2 = 28
+
+# month = int(input())
+
+# if (month == 2) :
+#     print ("28")
+# if ((month == 4 or month == 6 or month == 9 or month == 11) and month == 2) : 
+#     print ("30")
+# else:
+#     print ("31")
+            
+#==================================
+
