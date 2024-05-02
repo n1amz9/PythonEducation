@@ -315,16 +315,20 @@
 
 # colours mixer
 
-colour1 = str(input())
-colour2 = str(input())
+# colour1 = str(input())
+# colour2 = str(input())
 
-if (colour1 == colour2 and (colour1 == "синий" or colour1 == "желтый" or colour1 == "красный")) :
-    print (colour1)
-elif ((colour1 == "синий" and colour2 == "красный") or (colour1 == "красный" and colour2 == "синий")) :
-    print ("фиолетовый")
-elif ((colour1 == "красный" and colour2 == "желтый") or (colour1 == "желтый" and colour2 == "красный")) :
-    print ("оранжевый")
-elif ((colour1 == "желтый" and colour2 == "синий") or (colour1 == "синий" and colour2 == "желтый")) :
-    print ("зеленый")
-else :
-    print ("ошибка цвета")
+# if (colour1 == colour2 and (colour1 == "синий" or colour1 == "желтый" or colour1 == "красный")) :
+#     print (colour1)
+# elif ((colour1 == "синий" and colour2 == "красный") or (colour1 == "красный" and colour2 == "синий")) :
+#     print ("фиолетовый")
+# elif ((colour1 == "красный" and colour2 == "желтый") or (colour1 == "желтый" and colour2 == "красный")) :
+#     print ("оранжевый")
+# elif ((colour1 == "желтый" and colour2 == "синий") or (colour1 == "синий" and colour2 == "желтый")) :
+#     print ("зеленый")
+# else :
+#     print ("ошибка цвета")
+
+#==================================
+
+
