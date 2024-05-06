@@ -118,4 +118,4 @@
 # else :
 #     print ("NO")
 
-# congrats me :)
+# gratz me :)
