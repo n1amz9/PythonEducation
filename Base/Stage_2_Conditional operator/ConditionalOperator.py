@@ -365,41 +365,54 @@
     
 # ==============================
 
-a1 = int(input())
-b1 = int(input())
-a2 = int(input())
-b2 = int(input())
+# segments check
 
-if (a1 == a2) :
-    if (b1 == b2) :
-        print (a1, b2)
-    elif (b1 > b2) :
-        print (a2, b2)
-    elif (b1 < b2) :
-        print (a2, b1)
+# ex:
+# a1 = 1 ; b1 = 3 
+# a2 = 2 ; b2 = 4 
+
+# ###****** a1; b1
+# *###***** a2; b2 
+# answer : a2; b1
+
+# a1 = int(input())
+# b1 = int(input())
+# a2 = int(input())
+# b2 = int(input())
+
+# if (a1 == a2) :
+#     if (b1 == b2) :
+#         print (a1, b2)
+#     elif (b1 > b2) :
+#         print (a2, b2)
+#     elif (b1 < b2) :
+#         print (a2, b1)
         
-if (a1 > a2) :
-    if (b1 == b2) :
-        print (a1, b1)
-    elif (b1 < b2) :
-        print (a1, b2)
-    elif (b1 > b2):
-        if (b2 > a1) :
-            print (a1, b2)
-        else:
-            print ("пустое множество")    
-    elif (a1 == b2) :
-        print (a1)
+# if (a1 > a2) :
+#     if (b1 == b2) :
+#         print (a1, b1)
+#     elif (b1 < b2) :
+#         print (a1, b1)
+#     elif (b1 > b2):
+#         if (b2 > a1) :
+#             print (a1, b2)
+#         elif (a1 == b2) :
+#             print (a1)
+#         else:
+#             print ("пустое множество")    
     
-if (a1 < a2) :
-    if (b1 == b2) :
-        print (a2, b2)
-    elif (b1 > b2) :
-        print (a2, b1)
-    elif (b1 < b2) :
-        if (a2 < b1):
-            print (a2, b1)
-        else :
-            print ("пустое множество")
-    elif (b1 == a2) :
-        print (b1)
+    
+# if (a1 < a2) :
+#     if (b1 == b2) :
+#         print (a2, b2)
+#     elif (b1 > b2) :
+#         print (a2, b2)
+#     elif (b1 < b2) :
+#         if (a2 < b1):
+#             print (a2, b1)
+#         elif (b1 == a2) :
+#             print (b1)
+#         else :
+#             print ("пустое множество")
+
+# ==============================
