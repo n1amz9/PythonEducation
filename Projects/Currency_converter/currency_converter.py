@@ -9,6 +9,7 @@ new_path="D:/CodingForDummies/Python/PythonEducation/Projects/Currency_converter
 def get_currents():
     with open ("D:/CodingForDummies/Python/PythonEducation/Projects/Currency_converter/currency_values.json", mode='r') as read_json :
         allCurrencies = json.load(read_json)
+        print (allCurrencies)
         return(allCurrencies)
 
     
