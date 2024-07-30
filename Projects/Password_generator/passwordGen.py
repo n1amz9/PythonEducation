@@ -35,6 +35,8 @@ def start():
     while True:
         try: 
             bits = input ("Please, specify the number of bits in the password: ")
+            if (int(bits) < 8):
+                raise ValueError("Password length must be at least 8.")
             print("Please, hold here for few seconds. Password generating now.")
             return bits
         except Exception as e:
