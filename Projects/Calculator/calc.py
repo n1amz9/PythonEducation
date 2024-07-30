@@ -17,6 +17,8 @@ def calc(num1, num2, sign):
                 print("Вы ввели неверный знак оператор, или тот, кто пока не поддержан. Попробуйте снова")
     except ZeroDivisionError:
         print("Делить на ноль нельзя!")
+    except Exception as e:
+        print (f"Произошла ошибка: {e}")
         
 def check_nums(x):
     try:
