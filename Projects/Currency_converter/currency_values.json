@@ -1,0 +1,395 @@
+{
+	"ValCurs": {
+		"Valute": [
+			{
+				"NumCode": "036",
+				"CharCode": "AUD",
+				"Nominal": "1",
+				"Name": "Австралийский доллар",
+				"Value": "56,5979",
+				"VunitRate": "56,5979",
+				"_ID": "R01010"
+			},
+			{
+				"NumCode": "944",
+				"CharCode": "AZN",
+				"Nominal": "1",
+				"Name": "Азербайджанский манат",
+				"Value": "50,7824",
+				"VunitRate": "50,7824",
+				"_ID": "R01020A"
+			},
+			{
+				"NumCode": "826",
+				"CharCode": "GBP",
+				"Nominal": "1",
+				"Name": "Фунт стерлингов Соединенного королевства",
+				"Value": "110,9082",
+				"VunitRate": "110,9082",
+				"_ID": "R01035"
+			},
+			{
+				"NumCode": "051",
+				"CharCode": "AMD",
+				"Nominal": "100",
+				"Name": "Армянских драмов",
+				"Value": "22,2282",
+				"VunitRate": "0,222282",
+				"_ID": "R01060"
+			},
+			{
+				"NumCode": "933",
+				"CharCode": "BYN",
+				"Nominal": "1",
+				"Name": "Белорусский рубль",
+				"Value": "27,5384",
+				"VunitRate": "27,5384",
+				"_ID": "R01090B"
+			},
+			{
+				"NumCode": "975",
+				"CharCode": "BGN",
+				"Nominal": "1",
+				"Name": "Болгарский лев",
+				"Value": "47,7460",
+				"VunitRate": "47,746",
+				"_ID": "R01100"
+			},
+			{
+				"NumCode": "986",
+				"CharCode": "BRL",
+				"Nominal": "1",
+				"Name": "Бразильский реал",
+				"Value": "15,2861",
+				"VunitRate": "15,2861",
+				"_ID": "R01115"
+			},
+			{
+				"NumCode": "348",
+				"CharCode": "HUF",
+				"Nominal": "100",
+				"Name": "Венгерских форинтов",
+				"Value": "23,7138",
+				"VunitRate": "0,237138",
+				"_ID": "R01135"
+			},
+			{
+				"NumCode": "704",
+				"CharCode": "VND",
+				"Nominal": "10000",
+				"Name": "Вьетнамских донгов",
+				"Value": "35,5897",
+				"VunitRate": "0,00355897",
+				"_ID": "R01150"
+			},
+			{
+				"NumCode": "344",
+				"CharCode": "HKD",
+				"Nominal": "1",
+				"Name": "Гонконгский доллар",
+				"Value": "11,0708",
+				"VunitRate": "11,0708",
+				"_ID": "R01200"
+			},
+			{
+				"NumCode": "981",
+				"CharCode": "GEL",
+				"Nominal": "1",
+				"Name": "Грузинский лари",
+				"Value": "31,8056",
+				"VunitRate": "31,8056",
+				"_ID": "R01210"
+			},
+			{
+				"NumCode": "208",
+				"CharCode": "DKK",
+				"Nominal": "1",
+				"Name": "Датская крона",
+				"Value": "12,5136",
+				"VunitRate": "12,5136",
+				"_ID": "R01215"
+			},
+			{
+				"NumCode": "784",
+				"CharCode": "AED",
+				"Nominal": "1",
+				"Name": "Дирхам ОАЭ",
+				"Value": "23,5071",
+				"VunitRate": "23,5071",
+				"_ID": "R01230"
+			},
+			{
+				"NumCode": "840",
+				"CharCode": "USD",
+				"Nominal": "1",
+				"Name": "Доллар США",
+				"Value": "86,3300",
+				"VunitRate": "86,33",
+				"_ID": "R01235"
+			},
+			{
+				"NumCode": "978",
+				"CharCode": "EUR",
+				"Nominal": "1",
+				"Name": "Евро",
+				"Value": "93,2947",
+				"VunitRate": "93,2947",
+				"_ID": "R01239"
+			},
+			{
+				"NumCode": "818",
+				"CharCode": "EGP",
+				"Nominal": "10",
+				"Name": "Египетских фунтов",
+				"Value": "17,8357",
+				"VunitRate": "1,78357",
+				"_ID": "R01240"
+			},
+			{
+				"NumCode": "356",
+				"CharCode": "INR",
+				"Nominal": "10",
+				"Name": "Индийских рупий",
+				"Value": "10,3102",
+				"VunitRate": "1,03102",
+				"_ID": "R01270"
+			},
+			{
+				"NumCode": "360",
+				"CharCode": "IDR",
+				"Nominal": "10000",
+				"Name": "Индонезийских рупий",
+				"Value": "53,0087",
+				"VunitRate": "0,00530087",
+				"_ID": "R01280"
+			},
+			{
+				"NumCode": "398",
+				"CharCode": "KZT",
+				"Nominal": "100",
+				"Name": "Казахстанских тенге",
+				"Value": "18,2404",
+				"VunitRate": "0,182404",
+				"_ID": "R01335"
+			},
+			{
+				"NumCode": "124",
+				"CharCode": "CAD",
+				"Nominal": "1",
+				"Name": "Канадский доллар",
+				"Value": "62,3231",
+				"VunitRate": "62,3231",
+				"_ID": "R01350"
+			},
+			{
+				"NumCode": "634",
+				"CharCode": "QAR",
+				"Nominal": "1",
+				"Name": "Катарский риал",
+				"Value": "23,7170",
+				"VunitRate": "23,717",
+				"_ID": "R01355"
+			},
+			{
+				"NumCode": "417",
+				"CharCode": "KGS",
+				"Nominal": "10",
+				"Name": "Киргизских сомов",
+				"Value": "10,2737",
+				"VunitRate": "1,02737",
+				"_ID": "R01370"
+			},
+			{
+				"NumCode": "156",
+				"CharCode": "CNY",
+				"Nominal": "1",
+				"Name": "Китайский юань",
+				"Value": "11,8368",
+				"VunitRate": "11,8368",
+				"_ID": "R01375"
+			},
+			{
+				"NumCode": "498",
+				"CharCode": "MDL",
+				"Nominal": "10",
+				"Name": "Молдавских леев",
+				"Value": "48,6613",
+				"VunitRate": "4,86613",
+				"_ID": "R01500"
+			},
+			{
+				"NumCode": "554",
+				"CharCode": "NZD",
+				"Nominal": "1",
+				"Name": "Новозеландский доллар",
+				"Value": "50,6714",
+				"VunitRate": "50,6714",
+				"_ID": "R01530"
+			},
+			{
+				"NumCode": "578",
+				"CharCode": "NOK",
+				"Nominal": "10",
+				"Name": "Норвежских крон",
+				"Value": "78,3714",
+				"VunitRate": "7,83714",
+				"_ID": "R01535"
+			},
+			{
+				"NumCode": "985",
+				"CharCode": "PLN",
+				"Nominal": "1",
+				"Name": "Польский злотый",
+				"Value": "21,8187",
+				"VunitRate": "21,8187",
+				"_ID": "R01565"
+			},
+			{
+				"NumCode": "946",
+				"CharCode": "RON",
+				"Nominal": "1",
+				"Name": "Румынский лей",
+				"Value": "18,7980",
+				"VunitRate": "18,798",
+				"_ID": "R01585F"
+			},
+			{
+				"NumCode": "960",
+				"CharCode": "XDR",
+				"Nominal": "1",
+				"Name": "СДР (специальные права заимствования)",
+				"Value": "114,4589",
+				"VunitRate": "114,4589",
+				"_ID": "R01589"
+			},
+			{
+				"NumCode": "702",
+				"CharCode": "SGD",
+				"Nominal": "1",
+				"Name": "Сингапурский доллар",
+				"Value": "64,2528",
+				"VunitRate": "64,2528",
+				"_ID": "R01625"
+			},
+			{
+				"NumCode": "972",
+				"CharCode": "TJS",
+				"Nominal": "10",
+				"Name": "Таджикских сомони",
+				"Value": "81,2602",
+				"VunitRate": "8,12602",
+				"_ID": "R01670"
+			},
+			{
+				"NumCode": "764",
+				"CharCode": "THB",
+				"Nominal": "10",
+				"Name": "Таиландских батов",
+				"Value": "23,9926",
+				"VunitRate": "2,39926",
+				"_ID": "R01675"
+			},
+			{
+				"NumCode": "949",
+				"CharCode": "TRY",
+				"Nominal": "10",
+				"Name": "Турецких лир",
+				"Value": "26,1760",
+				"VunitRate": "2,6176",
+				"_ID": "R01700J"
+			},
+			{
+				"NumCode": "934",
+				"CharCode": "TMT",
+				"Nominal": "1",
+				"Name": "Новый туркменский манат",
+				"Value": "24,6657",
+				"VunitRate": "24,6657",
+				"_ID": "R01710A"
+			},
+			{
+				"NumCode": "860",
+				"CharCode": "UZS",
+				"Nominal": "10000",
+				"Name": "Узбекских сумов",
+				"Value": "68,6555",
+				"VunitRate": "0,00686555",
+				"_ID": "R01717"
+			},
+			{
+				"NumCode": "980",
+				"CharCode": "UAH",
+				"Nominal": "10",
+				"Name": "Украинских гривен",
+				"Value": "21,0316",
+				"VunitRate": "2,10316",
+				"_ID": "R01720"
+			},
+			{
+				"NumCode": "203",
+				"CharCode": "CZK",
+				"Nominal": "10",
+				"Name": "Чешских крон",
+				"Value": "36,7565",
+				"VunitRate": "3,67565",
+				"_ID": "R01760"
+			},
+			{
+				"NumCode": "752",
+				"CharCode": "SEK",
+				"Nominal": "10",
+				"Name": "Шведских крон",
+				"Value": "79,6343",
+				"VunitRate": "7,96343",
+				"_ID": "R01770"
+			},
+			{
+				"NumCode": "756",
+				"CharCode": "CHF",
+				"Nominal": "1",
+				"Name": "Швейцарский франк",
+				"Value": "97,4599",
+				"VunitRate": "97,4599",
+				"_ID": "R01775"
+			},
+			{
+				"NumCode": "941",
+				"CharCode": "RSD",
+				"Nominal": "100",
+				"Name": "Сербских динаров",
+				"Value": "79,8370",
+				"VunitRate": "0,79837",
+				"_ID": "R01805F"
+			},
+			{
+				"NumCode": "710",
+				"CharCode": "ZAR",
+				"Nominal": "10",
+				"Name": "Южноафриканских рэндов",
+				"Value": "47,1365",
+				"VunitRate": "4,71365",
+				"_ID": "R01810"
+			},
+			{
+				"NumCode": "410",
+				"CharCode": "KRW",
+				"Nominal": "1000",
+				"Name": "Вон Республики Корея",
+				"Value": "62,4674",
+				"VunitRate": "0,0624674",
+				"_ID": "R01815"
+			},
+			{
+				"NumCode": "392",
+				"CharCode": "JPY",
+				"Nominal": "100",
+				"Name": "Японских иен",
+				"Value": "56,0439",
+				"VunitRate": "0,560439",
+				"_ID": "R01820"
+			}
+		],
+		"_Date": "31.07.2024",
+		"_name": "Foreign Currency Market"
+	}
+}
