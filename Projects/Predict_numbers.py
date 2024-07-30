@@ -2,13 +2,20 @@ import random
 
 
 def check_input(x):
-    return None
+    inp = input("Введите число: ")
+    inp = int(inp)
+    if (inp != x):
+        print("Почти)")
+    else:
+        print("Угадали!")
 
 def start_function(ran_number):
     print("Вас приветствует игра в угадайку :)")
     print("\n")
     min_num = input("Введите минимальное число для генерации: ")
     max_num = input("Введите максимальное число для генерации: ")
+    min_num = int(min_num)
+    max_num = int(max_num)
     
     print("\n")
     ran_number = random.randint(min_num, max_num)
@@ -17,7 +24,7 @@ def start_function(ran_number):
     return ran_number
 
 def main():
-    start_function(0)
+    check_input(start_function(0))
 
 if __name__ == "__main__":
     main()
