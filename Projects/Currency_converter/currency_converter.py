@@ -1,6 +1,8 @@
 import requests
 import xmltodict
 
+# https://app.freecurrencyapi.com/dashboard
+
 URL = "https://www.cbr-xml-daily.ru/daily_utf8.xml"
 
 def get_current_currents():
