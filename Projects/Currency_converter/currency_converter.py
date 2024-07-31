@@ -1,26 +1,33 @@
-import requests
 import json
+import requests
+import xmltodict
 
 # https://app.freecurrencyapi.com/dashboard
+# https://www.cbr-xml-daily.ru/daily_utf8.xml
 
 URL = "https://www.cbr-xml-daily.ru/daily_utf8.xml"
-new_path="D:/CodingForDummies/Python/PythonEducation/Projects/Currency_converter/currency_values.json"
+path = "D:/CodingForDummies/Python/PythonEducation/Projects/Currency_converter/currency_values.json"
 
 def get_currents():
-    with open ("D:/CodingForDummies/Python/PythonEducation/Projects/Currency_converter/currency_values.json", mode='r') as read_json :
-        allCurrencies = json.load(read_json)
-        print (allCurrencies)
+    with open (path, mode="r", encoding="utf-8") as read_file:
+        allCurrencies = json.load(read_file)
         return(allCurrencies)
-
-    
+  
 def converter():
-    return None
+    return "TEST"
 
+def start():
+    print ("Welcome to the Currency converter owo")
+    print ("==================================")
+    num1 = input("Введите количество валюты: ")
+    cur_or = input ("Введите название валюты: (к примеру RUB, BYN): ")
+    cur_dest = input ("Введите валюту, в которую нужно перевести: ")
+    
+    return (int(num1), cur_or, cur_dest)
 
 def main() :
-    test = get_currents()
-    print (test)
-    print (type(test))
+    start()
     
-if __name__ == "main":
+    
+if __name__ == "__main__":
     main()
